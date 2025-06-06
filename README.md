@@ -63,14 +63,14 @@
    npm install
    ```
 ### 3. 配置数据库
-  - 创建数据库：
-     ```sql
-   CREATE DATABASE polang;
-     ```
+   - 创建数据库：
+      ```bash
+      CREATE DATABASE polang;
+      ```
    - 导入数据库脚本：
-     ```bash
-   mysql -u your_username -p polang < path/database.sql
-     ```
+      ```bash
+       mysql -u your_username -p polang < path/database.sql
+      ```
 ### 4. 启动前后端服务
    ```bash
    npm run start
@@ -81,7 +81,7 @@
    ```bash
    npx hardhat compile
    ```
-- 启动 Hardhat 本地节点：：
+- 启动 Hardhat 本地节点：
    ```bash
     npx hardhat node
    ```
