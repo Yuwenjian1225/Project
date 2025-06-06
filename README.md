@@ -66,11 +66,11 @@
   - 创建数据库：
      ```sql
    CREATE DATABASE polang;
-   ```
+     ```
    - 导入数据库脚本：
      ```bash
    mysql -u your_username -p polang < path/database.sql
-```
+     ```
 ### 4. 启动前后端服务
    ```bash
    npm run start
