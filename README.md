@@ -103,7 +103,7 @@
    ### 钱包页面
    ![钱包页面](screenshots/wallet.png)
    ### 充值页面
-   ![充值页面](screenshots/mastmask.png)
+   ![充值页面](screenshots/metamask.png)
    ### 购买页面
    ![购买页面](screenshots/payable.png)
    ### 用户仓库页面
