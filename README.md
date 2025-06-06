@@ -57,7 +57,36 @@
      ```bash
      npm install -g @vue/cli
      ```
- ### 2. 安装项目依赖
-在项目根目录下安装所有依赖：
-```bash
-npm install
+### 2. 安装项目依赖
+   在项目根目录下安装所有依赖：
+   ```bash
+   npm install
+   ```
+### 3. 配置数据库
+  - 创建数据库：
+     ```sql
+   CREATE DATABASE polang;
+   - 导入数据库脚本：
+     ```bash
+   mysql -u your_username -p polang < path/database.sql
+### 4. 启动前后端服务
+   ```bash
+   npm run start
+   ```
+   该命令会自动执行vue文件夹下的npm run serve命令和express文件夹下的npm run dev命令，启动前后端
+### 5.  启动区块链节点
+- 编译 Hardhat 中的智能合约：
+   ```bash
+   npx hardhat compile
+   ```
+- 启动 Hardhat 本地节点：：
+   ```bash
+    npx hardhat node
+   ```
+### 6. 部署智能合约
+在另一个终端窗口中，运行部署脚本：
+   ```bash
+   npx hardhat run scripts/deploy.js --network localhost
+   ```
+### 7.验证启动
+打开浏览器，访问 http://localhost:8080，确保平台正常运行。
