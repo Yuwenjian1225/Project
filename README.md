@@ -66,9 +66,11 @@
   - 创建数据库：
      ```sql
    CREATE DATABASE polang;
+   ```
    - 导入数据库脚本：
      ```bash
    mysql -u your_username -p polang < path/database.sql
+```
 ### 4. 启动前后端服务
    ```bash
    npm run start
@@ -89,4 +91,4 @@
    npx hardhat run scripts/deploy.js --network localhost
    ```
 ### 7.验证启动
-打开浏览器，访问 http://localhost:8080，确保平台正常运行。
+打开浏览器，访问 http://localhost:8080 ， 确保平台正常运行。
