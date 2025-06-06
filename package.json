@@ -1,0 +1,16 @@
+{
+    "name": "polang",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "start": "concurrently \"npm run serve:vue\" \"npm run dev:express\" \"npm run node:hardhat\"",
+      "serve:vue": "cd vue && npm run serve",
+      "dev:express": "cd express && npm run dev",
+      "node:hardhat": "cd hardhat-project && npx hardhat node"
+    },
+    "devDependencies": {
+      "concurrently": "^7.8.0",
+      "cross-env": "^7.0.3"
+    }
+  }
